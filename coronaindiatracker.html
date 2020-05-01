@@ -1,5 +1,8 @@
 <html>
     <head>
+		<title> Corona Tracker</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta charset="utf-8">
 		<style>
 			.button {
 				background-color:black; /* Green */
@@ -11,6 +14,20 @@
 				display: inline-block;
 				font-size: 16px;
 			  }
+
+			  .footer {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color:black;
+				color: white;
+				text-align: center;
+			  }
+			  .size{
+				font-size: 27px;
+			  
+			  } 
 		</style>
 		
 <!-- Google Adsense-->
@@ -26,9 +43,14 @@
 </script>
     </head> 
 	<body >
-		<div>
+		<div class="icons size">
 			<a href="index.html" class="button">Global Corona Tracker</a>
-			<a href="coronaindiatracker.html" class="button">India Corona Tracker</a>
+			<a href="coronaindiatracker.html" class="button">India Corona Tracker</a>        
+			<a href="https://trailblazer.me/id/bhanuprakash" target="_blank" class="button">Trailhead</a>      
+				<a href="https://www.facebook.com/ForceLearn.comsfdc/" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/forcelearn" class="fa fa-twitter"></a>
+				<a href="https://in.linkedin.com/company/forcelearn" class="fa fa-linkedin"></a>
+				<a href="https://medium.com/@forcelearn" class="fa fa-medium"></a>           
 		</div>
     <div class = 'tableauPlaceholder' id = 'viz1588161661210' style = 'position: relative'> 
 	<noscript > 
@@ -48,7 +70,10 @@
 	<param name = 'display_count' value = 'yes' / > 
 	</object>
 	</div > 
-	
+	<div class="footer">
+		<p> Built by © 
+			<a href="www.forcelearn.com">ForceLearn</a>. All rights reserved.</p>
+	</div>
 	<script type = 'text/javascript' >
     var divElement = document.getElementById('viz1588161661210');
 	var vizElement = divElement.getElementsByTagName('object')[0];
